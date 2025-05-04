@@ -12,12 +12,20 @@
 
     <style>
         body {
+            background-image: url('avt.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+            
+        }
+        body {
             height: 100%;
             margin: 0;
             display: flex;
             justify-content: center;
             align-items: center;
-            background-image: radial-gradient(hsl(111, 88%, 74%), rgb(53, 110, 156));
+            
             color: white;
             overflow-x: hidden;
         }
@@ -144,7 +152,8 @@
     </style>
 </head>
 
-<body>
+<body id="playbtn" onclick="audio">
+    <audio id="audio" src="adam.mp3"></audio>
     <div class="container">
         <img class="avatar" src="Hiếu.jpg" alt="Avatar">
         <h3>Mai Ngọc Hiếu</h3>
