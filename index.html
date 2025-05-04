@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mai Ngọc Hiếu</title>
+    <link rel="icon" href="Hiếu.jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image: radial-gradient(hsl(111, 88%, 74%), rgb(53, 110, 156));
+            color: white;
+            overflow-x: hidden;
+        }
+
+        .container {
+            text-align: center;
+            padding-top: 50px;
+        }
+
+        .avatar {
+            border-radius: 50%;
+            display: block;
+            margin: 0 auto;
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            border: 1px solid #02d01a;
+        }
+
+        .avatar:hover {
+            color: white;
+            transform: scale(1.1);
+            box-shadow: 0px 10px 30px rgba(226, 118, 10, 0.493);
+        }
+
+        h3 {
+            font-family: 'Merriweather', serif;
+            font-weight: bold;
+            font-size: 22px;
+            margin: 10px 0 8px 0;
+            background: linear-gradient(to right rgb(8, 249, 8),rgb(239, 159, 21));
+            border-radius: 10px;
+            color:darkorange;
+        }
+
+        p {
+            font-family: 'Times New Roman', Times, serif;
+            color: #ffffff;
+            margin-bottom: 30px;
+        }
+
+        i {
+            vertical-align: middle;
+        }
+
+        .grid-container {
+            margin-right: 50px;
+            display: grid;
+            grid-template-columns: auto 1fr;
+            align-items: center;
+            justify-items: center;
+            text-align: center;
+        }
+
+        .grid-container i {
+            margin-left: 50px;
+            justify-self: flex-start;
+        }
+
+        .button {
+            margin-bottom: 20px;
+            background-color: white;
+            border: 0;
+            width: 300px;
+            padding: 15px 0;
+            border-radius: 100px;
+            font-family: 'Lora', serif;
+            font-weight: bold;
+            font-size: 15px;
+            transition-duration: 0.3s;
+            transition-property: color, background-color, transform, box-shadow;
+            -webkit-box-shadow: 0px 11px 22px -9px #000000;
+            box-shadow: 0px 11px 22px -9px #000000;
+            cursor: pointer;
+        }
+
+        .button:hover {
+            color: white;
+            background: linear-gradient(rgb(27, 128, 205),rgb(186, 12, 202));
+            transform: scale(1.1);
+            box-shadow: 0px 15px 40px rgba(0, 0, 0, 0.5);
+        }
+
+        @media only screen and (max-width: 600px) {
+
+            .container {
+                text-align: center;
+                padding-top: 30px;
+            }
+
+            .avatar {
+                border-radius: 50%;
+                display: block;
+                margin: 0 auto;
+                width: 100px;
+                height: 100px;
+                object-fit: cover;
+            }
+
+            .avatar:hover {
+                color: white;
+                transform: scale(1.1);
+                box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.5);
+            }
+
+            h3 {
+                font-family: 'Lora', serif;
+                font-weight: bold;
+                margin: 10px 0 8px 0;
+                color: #ffffff;
+                font-size: 22px;
+            }
+
+            p {
+                font-family: 'Times New Roman', Times, serif;
+                color: #ffffff;
+                margin-bottom: 30px;
+            }
+            .Thử {
+                background: linear-gradient(pink, red);
+                font-size: x-large;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <img class="avatar" src="Hiếu.jpg" alt="Avatar">
+        <h3>Mai Ngọc Hiếu</h3>
+        <p>🌟 Follow my journey!<br>🎥 Face: Mai Ngọc Hiếu</p>
+
+        <button class="button" onclick="location.href = 'tel:0355044289'">
+            <div class="grid-container">
+                <i class="fas fa-phone-alt"></i>&nbsp;Gọi cho tôi
+            </div>
+        </button><br>
+        <button class="button" onclick="location.href = 'https://www.facebook.com/share/1CYZtW9Ejx/'">
+            <div class="grid-container">
+                <i class="fab fa-facebook"></i>&nbsp;Facebook
+            </div>
+            </button><br>
+        <button class=" button" onclick="location.href = 'https://www.instagram.com/ueihiee_ccogn2701?igsh=czU0eGY1ZDlxZmp6'">
+                    <div class="grid-container">
+                        <i class="fab fa-instagram"></i>&nbsp;Instagram
+                    </div>
+        </button><br>
+        <button class="button" onclick="location.href = 'https://www.tiktok.com/@hieu_iiii_27?_t=ZS-8vzbOGhUX15&_r=1'">
+            <div class="grid-container">
+                <i class="fab fa-tiktok"></i>&nbsp;TikTok
+            </div>
+        </button><br>
+        <div class="Thử"> <b>Chuyển đi đừng ngại 😝😝😝</b></div>
+        <img class="Hiếu" src="Ngân hàng.jpg" width="200px">
+        
+    </div>
+</body>
+
+</html>
